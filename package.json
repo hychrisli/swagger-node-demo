@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node -r dotenv/config ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "~1.18.2",
+    "config": "^1.30.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^5.0.1",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "express-fileupload": "^0.4.0",
+    "filereader": "^0.10.3",
+    "jsonwebtoken": "^8.2.0",
+    "morgan": "^1.9.0",
+    "mv": "^2.1.1",
+    "serve-favicon": "~2.4.5",
+    "swagger-jsdoc": "^1.9.7",
+    "swagger-tools": "^0.10.3",
+    "swagger-ui-express": "^2.0.15"
+  }
+}
